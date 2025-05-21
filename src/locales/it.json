@@ -1,0 +1,289 @@
+{
+  "app": {
+    "name": "KetoLife",
+    "tagline": "Il tuo compagno per la dieta chetogenica"
+  },
+  "nav": {
+    "home": "Home",
+    "recipes": "Ricette",
+    "dashboard": "Dashboard",
+    "profile": "Profilo",
+    "education": "Impara",
+    "login": "Accedi",
+    "register": "Registrati",
+    "logout": "Esci"
+  },
+  "home": {
+    "hero": {
+      "title": "Trasforma la tua salute con Keto",
+      "subtitle": "Scopri ricette deliziose, monitora i tuoi progressi e impara lo stile di vita chetogenico",
+      "cta": "Inizia ora",
+      "exploreButton": "Esplora le ricette",
+      "joinButton": "Unisciti ora"
+    },
+    "features": {
+      "title": "Perché scegliere KetoLife?",
+      "recipes": {
+        "title": "Ricette selezionate",
+        "description": "Accedi a centinaia di ricette keto adatte alle tue preferenze e necessità alimentari"
+      },
+      "tracking": {
+        "title": "Monitoraggio progressi",
+        "description": "Monitora il tuo percorso di perdita di peso e i miglioramenti della salute con strumenti intuitivi"
+      },
+      "education": {
+        "title": "Conoscenza esperta",
+        "description": "Impara i principi chetogenici da risorse e guide basate su evidenze scientifiche"
+      },
+      "personalization": {
+        "title": "Esperienza personalizzata",
+        "description": "Ricevi consigli basati sui tuoi obiettivi, preferenze e restrizioni alimentari"
+      }
+    },
+    "popularRecipes": {
+      "title": "Ricette Keto Popolari",
+      "viewAll": "Vedi tutte le ricette"
+    },
+    "testimonials": {
+      "title": "Storie di successo",
+      "quote1": "KetoLife ha completamente trasformato il mio rapporto con il cibo. Ho perso peso, guadagnato energia e mi sento meglio che mai!",
+      "quote2": "Le ricette sono deliziose e facili da seguire. Non mi sento mai come se fossi a dieta!"
+    },
+    "cta": {
+      "title": "Pronto a iniziare il tuo percorso Keto?",
+      "description": "Unisciti a migliaia di persone che hanno trasformato la loro salute con la dieta chetogenica.",
+      "startButton": "Inizia ora",
+      "dashboardButton": "Vai alla Dashboard"
+    }
+  },
+  "recipes": {
+    "title": "Ricette Keto",
+    "search": "Cerca ricette...",
+    "filters": {
+      "title": "Filtri",
+      "mealType": "Tipo di pasto",
+      "prepTime": "Tempo di preparazione",
+      "difficulty": "Livello di difficoltà",
+      "netCarbs": "Carboidrati netti",
+      "time": "Tempo di preparazione",
+      "macros": "Macronutrienti",
+      "ingredients": "Ingredienti",
+      "skill": "Livello di abilità",
+      "apply": "Applica filtri",
+      "clear": "Cancella",
+      "clearAll": "Cancella tutti i filtri"
+    },
+    "prepTimes": {
+      "under15": "Meno di 15 minuti",
+      "15to30": "15-30 minuti",
+      "over30": "Più di 30 minuti"
+    },
+    "difficultyLevels": {
+      "easy": "Facile",
+      "medium": "Medio",
+      "hard": "Difficile"
+    },
+    "carbLevels": {
+      "under3": "Meno di 3g",
+      "3to5": "3-5g",
+      "over5": "Più di 5g"
+    },
+    "mealTypes": {
+      "breakfast": "Colazione",
+      "lunch": "Pranzo",
+      "dinner": "Cena",
+      "snack": "Spuntino",
+      "dessert": "Dessert"
+    },
+    "macros": {
+      "fat": "Grassi",
+      "protein": "Proteine",
+      "netCarbs": "Carboidrati netti"
+    },
+    "noResults": {
+      "title": "Nessuna ricetta trovata",
+      "message": "Prova a modificare i filtri o i criteri di ricerca.",
+      "clearFilters": "Cancella filtri"
+    },
+    "favorite": "Aggiungi ai preferiti",
+    "unfavorite": "Rimuovi dai preferiti",
+    "prepTime": "Tempo di preparazione",
+    "cookTime": "Tempo di cottura",
+    "totalTime": "Tempo totale",
+    "servings": "Porzioni",
+    "ingredients": "Ingredienti",
+    "instructions": "Istruzioni",
+    "nutritionFacts": "Valori nutrizionali",
+    "netCarbs": "Carboidrati netti",
+    "time": {
+      "quick": "Veloce (< 15 min)",
+      "medium": "Medio (15-30 min)",
+      "long": "Lungo (> 30 min)"
+    },
+    "skill": {
+      "beginner": "Principiante",
+      "intermediate": "Intermedio",
+      "advanced": "Avanzato"
+    }
+  },
+  "auth": {
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Conferma password",
+    "name": "Nome completo",
+    "login": "Accedi",
+    "register": "Registrati",
+    "forgotPassword": "Password dimenticata?",
+    "noAccount": "Non hai un account?",
+    "hasAccount": "Hai già un account?",
+    "createAccount": "Crea account",
+    "loginNow": "Accedi ora",
+    "errors": {
+      "invalidEmail": "Inserisci un'email valida",
+      "passwordLength": "La password deve contenere almeno 8 caratteri",
+      "passwordMatch": "Le password non corrispondono",
+      "requiredField": "Questo campo è obbligatorio"
+    }
+  },
+  "login": {
+    "title": "Bentornato",
+    "subtitle": "Accedi al tuo account KetoLife",
+    "emailLabel": "Indirizzo Email",
+    "emailPlaceholder": "Inserisci la tua email",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Inserisci la tua password",
+    "forgotPassword": "Password dimenticata?",
+    "loginButton": "Accedi",
+    "loggingIn": "Accesso in corso...",
+    "noAccount": "Non hai un account?",
+    "registerLink": "Registrati ora",
+    "genericError": "Accesso fallito. Controlla le tue credenziali e riprova.",
+    "termsText": "Accedendo, accetti i nostri",
+    "termsLink": "Termini di Servizio",
+    "andText": "e la",
+    "privacyLink": "Privacy Policy"
+  },
+  "register": {
+    "title": "Crea il tuo Account",
+    "subtitle": "Unisciti a KetoLife e inizia il tuo percorso keto",
+    "nameLabel": "Nome Completo",
+    "namePlaceholder": "Inserisci il tuo nome completo",
+    "emailLabel": "Indirizzo Email",
+    "emailPlaceholder": "Inserisci la tua email",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Crea una password (min. 6 caratteri)",
+    "confirmPasswordLabel": "Conferma Password",
+    "confirmPasswordPlaceholder": "Conferma la tua password",
+    "agreeToTerms": "Accetto i",
+    "termsLink": "Termini di Servizio",
+    "andText": "e la",
+    "privacyLink": "Privacy Policy",
+    "registerButton": "Crea Account",
+    "registering": "Creazione account in corso...",
+    "alreadyHaveAccount": "Hai già un account?",
+    "loginLink": "Accedi",
+    "genericError": "Registrazione fallita. Riprova.",
+    "passwordMismatch": "Le password non corrispondono",
+    "passwordTooShort": "La password deve contenere almeno 6 caratteri",
+    "mustAgreeToTerms": "Devi accettare i Termini di Servizio e la Privacy Policy"
+  },
+  "profile": {
+    "title": "Il tuo profilo",
+    "personalInfo": "Informazioni personali",
+    "dietaryPreferences": "Preferenze alimentari",
+    "healthGoals": "Obiettivi di salute",
+    "settings": "Impostazioni",
+    "language": "Lingua",
+    "notifications": "Notifiche",
+    "save": "Salva modifiche",
+    "height": "Altezza",
+    "weight": "Peso",
+    "age": "Età",
+    "gender": "Genere",
+    "activityLevel": "Livello di attività",
+    "allergies": "Allergie",
+    "intolerances": "Intolleranze",
+    "preferences": "Preferenze alimentari",
+    "avoidances": "Alimenti da evitare",
+    "weightGoal": "Obiettivo di peso",
+    "healthGoal": "Obiettivo di salute",
+    "dailyCarbs": "Limite giornaliero di carboidrati",
+    "updateSuccess": "Profilo aggiornato con successo"
+  },
+  "dashboard": {
+    "welcome": "Bentornato, {{name}}",
+    "summary": "Riepilogo dei tuoi progressi",
+    "stats": {
+      "weight": "Peso attuale",
+      "weightLost": "Peso perso",
+      "daysOnKeto": "Giorni in Keto",
+      "streakDays": "Serie attuale"
+    },
+    "macros": {
+      "title": "Macronutrienti di oggi",
+      "remaining": "Rimanenti",
+      "consumed": "Consumati"
+    },
+    "recentMeals": "Pasti recenti",
+    "favorites": "I tuoi preferiti",
+    "recommendations": "Consigliati per te",
+    "progress": "Grafico dei progressi",
+    "goals": "I tuoi obiettivi",
+    "addMeal": "Aggiungi pasto",
+    "trackWeight": "Registra peso",
+    "viewAll": "Vedi tutti"
+  },
+  "education": {
+    "title": "Centro educativo Keto",
+    "categories": {
+      "basics": "Basi Keto",
+      "science": "La Scienza",
+      "tips": "Consigli e Trucchi",
+      "myths": "Miti e Fatti"
+    },
+    "categoryTitles": {
+      "basics": "Articoli sulle basi Keto",
+      "science": "Articoli scientifici Keto",
+      "tips": "Consigli e trucchi Keto",
+      "myths": "Miti e fatti sul Keto"
+    },
+    "featuredArticle": "Articolo in evidenza",
+    "featuredTitle": "La guida completa al successo della dieta chetogenica",
+    "featuredExcerpt": "Tutto ciò che devi sapere per iniziare e mantenere uno stile di vita chetogenico di successo, supportato dalla scienza e dall'esperienza pratica.",
+    "readTime": "{{minutes}} min di lettura",
+    "readMore": "Leggi di più",
+    "readArticle": "Leggi l'articolo",
+    "newsletter": {
+      "title": "Resta aggiornato con la ricerca Keto",
+      "description": "Iscriviti alla nostra newsletter per ricevere le ultime ricerche, ricette e consigli keto direttamente nella tua casella di posta.",
+      "emailPlaceholder": "Il tuo indirizzo email",
+      "subscribeButton": "Iscriviti",
+      "privacyNotice": "Rispettiamo la tua privacy. Cancellati in qualsiasi momento."
+    }
+  },
+  "footer": {
+    "quickLinks": "Link Rapidi",
+    "educationLinks": "Educazione",
+    "legalLinks": "Legale",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Termini di Servizio",
+    "cookiePolicy": "Policy sui Cookie",
+    "copyright": "© {{year}} {{appName}}. Tutti i diritti riservati."
+  },
+  "common": {
+    "loading": "Caricamento...",
+    "error": "Si è verificato un errore",
+    "retry": "Riprova",
+    "save": "Salva",
+    "cancel": "Annulla",
+    "delete": "Elimina",
+    "edit": "Modifica",
+    "view": "Visualizza",
+    "search": "Cerca",
+    "filter": "Filtra",
+    "sort": "Ordina",
+    "noData": "Nessun dato disponibile",
+    "seeAll": "Vedi tutti",
+    "back": "Indietro"
+  }
+}

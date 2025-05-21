@@ -1,0 +1,289 @@
+{
+  "app": {
+    "name": "KetoLife",
+    "tagline": "Your Ketogenic Diet Companion"
+  },
+  "nav": {
+    "home": "Home",
+    "recipes": "Recipes",
+    "dashboard": "Dashboard",
+    "profile": "Profile",
+    "education": "Learn",
+    "login": "Log In",
+    "register": "Sign Up",
+    "logout": "Log Out"
+  },
+  "home": {
+    "hero": {
+      "title": "Transform Your Health with Keto",
+      "subtitle": "Discover delicious recipes, track your progress, and learn about the ketogenic lifestyle",
+      "cta": "Get Started",
+      "exploreButton": "Explore Recipes",
+      "joinButton": "Join Now"
+    },
+    "features": {
+      "title": "Why Choose KetoLife?",
+      "recipes": {
+        "title": "Curated Recipes",
+        "description": "Access hundreds of keto-friendly recipes tailored to your preferences and dietary needs"
+      },
+      "tracking": {
+        "title": "Progress Tracking",
+        "description": "Monitor your weight loss journey and health improvements with intuitive tools"
+      },
+      "education": {
+        "title": "Expert Knowledge",
+        "description": "Learn about ketogenic principles from science-backed resources and guides"
+      },
+      "personalization": {
+        "title": "Personalized Experience",
+        "description": "Get recommendations based on your goals, preferences, and dietary restrictions"
+      }
+    },
+    "popularRecipes": {
+      "title": "Popular Keto Recipes",
+      "viewAll": "View All Recipes"
+    },
+    "testimonials": {
+      "title": "Success Stories",
+      "quote1": "KetoLife has completely transformed my relationship with food. I've lost weight, gained energy, and feel better than ever!",
+      "quote2": "The recipes are delicious and easy to follow. I never feel like I'm on a diet!"
+    },
+    "cta": {
+      "title": "Ready to Start Your Keto Journey?",
+      "description": "Join thousands of people who have transformed their health with the ketogenic diet.",
+      "startButton": "Start Now",
+      "dashboardButton": "Go to Dashboard"
+    }
+  },
+  "recipes": {
+    "title": "Keto Recipes",
+    "search": "Search recipes...",
+    "filters": {
+      "title": "Filters",
+      "mealType": "Meal Type",
+      "prepTime": "Preparation Time",
+      "difficulty": "Difficulty Level",
+      "netCarbs": "Net Carbs",
+      "time": "Preparation Time",
+      "macros": "Macronutrients",
+      "ingredients": "Ingredients",
+      "skill": "Skill Level",
+      "apply": "Apply Filters",
+      "clear": "Clear All",
+      "clearAll": "Clear All Filters"
+    },
+    "prepTimes": {
+      "under15": "Under 15 minutes",
+      "15to30": "15-30 minutes",
+      "over30": "Over 30 minutes"
+    },
+    "difficultyLevels": {
+      "easy": "Easy",
+      "medium": "Medium",
+      "hard": "Hard"
+    },
+    "carbLevels": {
+      "under3": "Under 3g",
+      "3to5": "3-5g",
+      "over5": "Over 5g"
+    },
+    "mealTypes": {
+      "breakfast": "Breakfast",
+      "lunch": "Lunch",
+      "dinner": "Dinner",
+      "snack": "Snack",
+      "dessert": "Dessert"
+    },
+    "macros": {
+      "fat": "Fat",
+      "protein": "Protein",
+      "netCarbs": "Net Carbs"
+    },
+    "noResults": {
+      "title": "No Recipes Found",
+      "message": "Try adjusting your filters or search criteria.",
+      "clearFilters": "Clear Filters"
+    },
+    "favorite": "Add to Favorites",
+    "unfavorite": "Remove from Favorites",
+    "prepTime": "Prep Time",
+    "cookTime": "Cook Time",
+    "totalTime": "Total Time",
+    "servings": "Servings",
+    "ingredients": "Ingredients",
+    "instructions": "Instructions",
+    "nutritionFacts": "Nutrition Facts",
+    "netCarbs": "Net Carbs",
+    "time": {
+      "quick": "Quick (< 15 min)",
+      "medium": "Medium (15-30 min)",
+      "long": "Long (> 30 min)"
+    },
+    "skill": {
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced"
+    }
+  },
+  "auth": {
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "name": "Full Name",
+    "login": "Log In",
+    "register": "Sign Up",
+    "forgotPassword": "Forgot Password?",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?",
+    "createAccount": "Create Account",
+    "loginNow": "Log In Now",
+    "errors": {
+      "invalidEmail": "Please enter a valid email",
+      "passwordLength": "Password must be at least 8 characters",
+      "passwordMatch": "Passwords do not match",
+      "requiredField": "This field is required"
+    }
+  },
+  "login": {
+    "title": "Welcome Back",
+    "subtitle": "Log in to your KetoLife account",
+    "emailLabel": "Email Address",
+    "emailPlaceholder": "Enter your email",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Enter your password",
+    "forgotPassword": "Forgot Password?",
+    "loginButton": "Log In",
+    "loggingIn": "Logging in...",
+    "noAccount": "Don't have an account?",
+    "registerLink": "Sign up now",
+    "genericError": "Login failed. Please check your credentials and try again.",
+    "termsText": "By logging in, you agree to our",
+    "termsLink": "Terms of Service",
+    "andText": "and",
+    "privacyLink": "Privacy Policy"
+  },
+  "register": {
+    "title": "Create Your Account",
+    "subtitle": "Join KetoLife and start your keto journey",
+    "nameLabel": "Full Name",
+    "namePlaceholder": "Enter your full name",
+    "emailLabel": "Email Address",
+    "emailPlaceholder": "Enter your email",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Create a password (min. 6 characters)",
+    "confirmPasswordLabel": "Confirm Password",
+    "confirmPasswordPlaceholder": "Confirm your password",
+    "agreeToTerms": "I agree to the",
+    "termsLink": "Terms of Service",
+    "andText": "and",
+    "privacyLink": "Privacy Policy",
+    "registerButton": "Create Account",
+    "registering": "Creating account...",
+    "alreadyHaveAccount": "Already have an account?",
+    "loginLink": "Log in",
+    "genericError": "Registration failed. Please try again.",
+    "passwordMismatch": "Passwords do not match",
+    "passwordTooShort": "Password must be at least 6 characters",
+    "mustAgreeToTerms": "You must agree to the Terms of Service and Privacy Policy"
+  },
+  "profile": {
+    "title": "Your Profile",
+    "personalInfo": "Personal Information",
+    "dietaryPreferences": "Dietary Preferences",
+    "healthGoals": "Health Goals",
+    "settings": "Settings",
+    "language": "Language",
+    "notifications": "Notifications",
+    "save": "Save Changes",
+    "height": "Height",
+    "weight": "Weight",
+    "age": "Age",
+    "gender": "Gender",
+    "activityLevel": "Activity Level",
+    "allergies": "Allergies",
+    "intolerances": "Intolerances",
+    "preferences": "Food Preferences",
+    "avoidances": "Food Avoidances",
+    "weightGoal": "Weight Goal",
+    "healthGoal": "Health Goal",
+    "dailyCarbs": "Daily Carb Limit",
+    "updateSuccess": "Profile updated successfully"
+  },
+  "dashboard": {
+    "welcome": "Welcome back, {{name}}",
+    "summary": "Your Progress Summary",
+    "stats": {
+      "weight": "Current Weight",
+      "weightLost": "Weight Lost",
+      "daysOnKeto": "Days on Keto",
+      "streakDays": "Current Streak"
+    },
+    "macros": {
+      "title": "Today's Macros",
+      "remaining": "Remaining",
+      "consumed": "Consumed"
+    },
+    "recentMeals": "Recent Meals",
+    "favorites": "Your Favorites",
+    "recommendations": "Recommended for You",
+    "progress": "Progress Chart",
+    "goals": "Your Goals",
+    "addMeal": "Add Meal",
+    "trackWeight": "Track Weight",
+    "viewAll": "View All"
+  },
+  "education": {
+    "title": "Keto Education Center",
+    "categories": {
+      "basics": "Keto Basics",
+      "science": "The Science",
+      "tips": "Tips & Tricks",
+      "myths": "Myths & Facts"
+    },
+    "categoryTitles": {
+      "basics": "Keto Basics Articles",
+      "science": "Keto Science Articles",
+      "tips": "Keto Tips & Tricks",
+      "myths": "Keto Myths & Facts"
+    },
+    "featuredArticle": "Featured Article",
+    "featuredTitle": "The Complete Guide to Ketogenic Diet Success",
+    "featuredExcerpt": "Everything you need to know to start and maintain a successful ketogenic lifestyle, backed by science and practical experience.",
+    "readTime": "{{minutes}} min read",
+    "readMore": "Read More",
+    "readArticle": "Read Article",
+    "newsletter": {
+      "title": "Stay Updated with Keto Research",
+      "description": "Subscribe to our newsletter to receive the latest keto research, recipes, and tips directly to your inbox.",
+      "emailPlaceholder": "Your email address",
+      "subscribeButton": "Subscribe",
+      "privacyNotice": "We respect your privacy. Unsubscribe at any time."
+    }
+  },
+  "footer": {
+    "quickLinks": "Quick Links",
+    "educationLinks": "Education",
+    "legalLinks": "Legal",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "cookiePolicy": "Cookie Policy",
+    "copyright": "© {{year}} {{appName}}. All rights reserved."
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Retry",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "noData": "No data available",
+    "seeAll": "See All",
+    "back": "Back"
+  }
+}
