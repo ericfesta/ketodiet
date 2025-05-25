@@ -15,11 +15,46 @@
   },
   "home": {
     "hero": {
-      "title": "Transform Your Health with Keto",
-      "subtitle": "Discover delicious recipes, track your progress, and learn about the ketogenic lifestyle",
-      "cta": "Get Started",
-      "exploreButton": "Explore Recipes",
-      "joinButton": "Join Now"
+      "badge": "Transform your life today",
+      "titleLine1": "Transform",
+      "titleLine2": "your health",
+      "titleLine3": "with Keto",
+      "subtitle": "Discover delicious recipes, track your progress, and learn the ketogenic lifestyle that will change your life",
+      "stats": {
+        "recipes": {
+          "number": "500+",
+          "label": "Keto Recipes"
+        },
+        "users": {
+          "number": "10k+",
+          "label": "Active Users"
+        },
+        "success": {
+          "number": "95%",
+          "label": "Success Rate"
+        }
+      },
+      "buttons": {
+        "exploreRecipes": "🍽️ Explore Recipes",
+        "startFree": "🚀 Start Free"
+      },
+      "trustIndicator": {
+        "join": "Join thousands",
+        "message": "of people who have already transformed their lives"
+      },
+      "recipeCard": {
+        "title": "Avocado Keto Bowl",
+        "carbs": "2g net carbs",
+        "time": "⏱️ 15 min",
+        "rating": "⭐ 4.9",
+        "servings": "👥 2 servings"
+      },
+      "progressCard": {
+        "title": "Your Progress",
+        "weightLost": "Weight lost",
+        "weightValue": "-8.5 kg",
+        "goal": "Goal: -12 kg"
+      }
     },
     "features": {
       "title": "Why Choose KetoLife?",

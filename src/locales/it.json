@@ -15,11 +15,46 @@
   },
   "home": {
     "hero": {
-      "title": "Trasforma la tua salute con Keto",
-      "subtitle": "Scopri ricette deliziose, monitora i tuoi progressi e impara lo stile di vita chetogenico",
-      "cta": "Inizia ora",
-      "exploreButton": "Esplora le ricette",
-      "joinButton": "Unisciti ora"
+      "badge": "Trasforma la tua vita oggi",
+      "titleLine1": "Trasforma",
+      "titleLine2": "la tua salute",
+      "titleLine3": "con Keto",
+      "subtitle": "Scopri ricette deliziose, monitora i tuoi progressi e impara lo stile di vita chetogenico che cambierà la tua vita",
+      "stats": {
+        "recipes": {
+          "number": "500+",
+          "label": "Ricette Keto"
+        },
+        "users": {
+          "number": "10k+",
+          "label": "Utenti Attivi"
+        },
+        "success": {
+          "number": "95%",
+          "label": "Tasso di Successo"
+        }
+      },
+      "buttons": {
+        "exploreRecipes": "🍽️ Esplora le Ricette",
+        "startFree": "🚀 Inizia Gratis"
+      },
+      "trustIndicator": {
+        "join": "Unisciti a migliaia",
+        "message": "di persone che hanno già trasformato la loro vita"
+      },
+      "recipeCard": {
+        "title": "Avocado Keto Bowl",
+        "carbs": "2g carboidrati netti",
+        "time": "⏱️ 15 min",
+        "rating": "⭐ 4.9",
+        "servings": "👥 2 porzioni"
+      },
+      "progressCard": {
+        "title": "I tuoi progressi",
+        "weightLost": "Peso perso",
+        "weightValue": "-8.5 kg",
+        "goal": "Obiettivo: -12 kg"
+      }
     },
     "features": {
       "title": "Perché scegliere KetoLife?",
