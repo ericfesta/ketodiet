@@ -99,7 +99,15 @@ const Footer = () => {
         
         <div className="mt-12 pt-8 border-t border-gray-700 text-center text-gray-400">
           <p>
-            {t('footer.copyright', { year: currentYear, appName: t('app.name') })}
+            Made with <span className="text-red-500">❤️</span> and{' '}
+            <a 
+              href="https://chatandbuild.com" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-primary-400 hover:text-primary-300 transition-colors font-medium"
+            >
+              ChatAndBuild
+            </a>
           </p>
         </div>
       </div>
