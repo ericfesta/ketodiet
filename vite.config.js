@@ -13,7 +13,7 @@ export default defineConfig({
       // Use WebSockets for more reliable HMR
       protocol: 'ws',
       // Increase timeout for slower connections
-      timeout: 30000
+      timeout: 60000
     }
   },
   // Optimize dependency pre-bundling
@@ -29,7 +29,9 @@ export default defineConfig({
       'react-icons',
       'chart.js',
       'react-chartjs-2'
-    ]
+    ],
+    // Force re-optimization on HMR updates
+    force: true
   },
   // Improve build performance
   build: {

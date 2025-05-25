@@ -26,8 +26,8 @@ const MainLayout = () => {
         onClose={() => setMobileMenuOpen(false)} 
       />
       
-      {/* Added pt-16 class to create space for the fixed header */}
-      <main className="flex-grow">
+      {/* Aggiunto padding-top per compensare l'header fisso */}
+      <main className="flex-grow pt-20">
         <Outlet />
       </main>
       

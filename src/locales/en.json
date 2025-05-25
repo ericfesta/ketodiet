@@ -126,6 +126,21 @@
       "advanced": "Advanced"
     }
   },
+  "recipeDetail": {
+    "ingredients": "Ingredients",
+    "instructions": "Instructions",
+    "tips": "Chef's Tips",
+    "nutritionFacts": "Nutrition Facts",
+    "servings": "servings",
+    "prepTime": "Prep Time",
+    "cookTime": "Cook Time",
+    "totalTime": "Total Time",
+    "by": "Recipe by",
+    "notFound": {
+      "title": "Recipe Not Found",
+      "message": "Sorry, we couldn't find the recipe you're looking for."
+    }
+  },
   "auth": {
     "email": "Email",
     "password": "Password",
@@ -208,30 +223,105 @@
     "weightGoal": "Weight Goal",
     "healthGoal": "Health Goal",
     "dailyCarbs": "Daily Carb Limit",
-    "updateSuccess": "Profile updated successfully"
+    "updateSuccess": "Profile updated successfully",
+    "updateError": "Error updating profile. Please try again.",
+    "editProfile": "Edit Profile",
+    "saveChanges": "Save Changes",
+    "saving": "Saving...",
+    "cancel": "Cancel",
+    "signOut": "Sign Out",
+    "birthDate": "Birth Date",
+    "name": "Name",
+    "email": "Email",
+    "weightInfo": "Weight Information",
+    "startingWeight": "Starting Weight",
+    "currentWeight": "Current Weight",
+    "targetWeight": "Target Weight",
+    "dietaryRestrictions": "Dietary Restrictions",
+    "allergiesPlaceholder": "List any food allergies here...",
+    "genderOptions": {
+      "male": "Male",
+      "female": "Female",
+      "other": "Other",
+      "preferNotToSay": "Prefer not to say"
+    },
+    "activityOptions": {
+      "sedentary": "Sedentary (little or no exercise)",
+      "light": "Light (exercise 1-3 times/week)",
+      "moderate": "Moderate (exercise 3-5 times/week)",
+      "active": "Active (exercise 6-7 times/week)",
+      "veryActive": "Very Active (intense exercise daily)"
+    },
+    "restrictionOptions": {
+      "vegetarian": "Vegetarian",
+      "vegan": "Vegan",
+      "gluten-free": "Gluten-Free",
+      "dairy": "Dairy-Free",
+      "nuts": "Nut-Free",
+      "shellfish": "Shellfish-Free"
+    }
   },
   "dashboard": {
-    "welcome": "Welcome back, {{name}}",
-    "summary": "Your Progress Summary",
-    "stats": {
-      "weight": "Current Weight",
-      "weightLost": "Weight Lost",
+    "title": "Dashboard",
+    "tabs": {
+      "overview": "Overview",
+      "progress": "Progress",
+      "mealPlan": "Meal Plan",
+      "goals": "Goals"
+    },
+    "overview": {
+      "welcome": "Welcome back, {{name}}!",
+      "welcomeMessage": "You've been on your keto journey for {{days}} days. Keep up the great work!",
       "daysOnKeto": "Days on Keto",
-      "streakDays": "Current Streak"
+      "recipesCooked": "Recipes Cooked",
+      "currentStreak": "Current Streak",
+      "todaysMeals": "Today's Meals",
+      "progressSummary": "Progress Summary",
+      "weightProgress": "Weight Progress",
+      "ketoneLevel": "Ketone Level",
+      "streakProgress": "Streak Progress",
+      "days": "days",
+      "viewDetailedProgress": "View Detailed Progress",
+      "recommendedRecipes": "Recommended Recipes",
+      "viewAll": "View All"
     },
-    "macros": {
-      "title": "Today's Macros",
-      "remaining": "Remaining",
-      "consumed": "Consumed"
+    "progress": {
+      "title": "Your Progress",
+      "description": "Track your weight loss and ketone levels over time.",
+      "weightChartPlaceholder": "Weight chart will be displayed here",
+      "date": "Date",
+      "weight": "Weight",
+      "ketones": "Ketones",
+      "change": "Change"
     },
-    "recentMeals": "Recent Meals",
-    "favorites": "Your Favorites",
-    "recommendations": "Recommended for You",
-    "progress": "Progress Chart",
-    "goals": "Your Goals",
-    "addMeal": "Add Meal",
-    "trackWeight": "Track Weight",
-    "viewAll": "View All"
+    "mealPlan": {
+      "title": "Your Meal Plan",
+      "description": "Plan your meals for the week to stay on track with your keto goals.",
+      "previousWeek": "Previous Week",
+      "nextWeek": "Next Week",
+      "days": {
+        "monday": "Monday",
+        "tuesday": "Tuesday",
+        "wednesday": "Wednesday",
+        "thursday": "Thursday",
+        "friday": "Friday",
+        "saturday": "Saturday",
+        "sunday": "Sunday"
+      },
+      "noMealsPlanned": "No meals planned"
+    },
+    "goals": {
+      "title": "Your Goals",
+      "description": "Set and track your health and fitness goals.",
+      "currentGoals": "Current Goals",
+      "setNewGoals": "Set New Goals",
+      "targetWeight": "Target Weight",
+      "dailyCarbs": "Daily Carbs",
+      "dailyWater": "Daily Water",
+      "weeklyWorkouts": "Weekly Workouts",
+      "workouts": "workouts",
+      "saveGoals": "Save Goals"
+    }
   },
   "education": {
     "title": "Keto Education Center",

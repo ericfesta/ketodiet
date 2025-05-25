@@ -126,6 +126,21 @@
       "advanced": "Avanzato"
     }
   },
+  "recipeDetail": {
+    "ingredients": "Ingredienti",
+    "instructions": "Istruzioni",
+    "tips": "Consigli dello Chef",
+    "nutritionFacts": "Valori Nutrizionali",
+    "servings": "porzioni",
+    "prepTime": "Tempo di Preparazione",
+    "cookTime": "Tempo di Cottura",
+    "totalTime": "Tempo Totale",
+    "by": "Ricetta di",
+    "notFound": {
+      "title": "Ricetta Non Trovata",
+      "message": "Ci dispiace, non siamo riusciti a trovare la ricetta che stai cercando."
+    }
+  },
   "auth": {
     "email": "Email",
     "password": "Password",
@@ -208,30 +223,105 @@
     "weightGoal": "Obiettivo di peso",
     "healthGoal": "Obiettivo di salute",
     "dailyCarbs": "Limite giornaliero di carboidrati",
-    "updateSuccess": "Profilo aggiornato con successo"
+    "updateSuccess": "Profilo aggiornato con successo",
+    "updateError": "Errore durante l'aggiornamento del profilo. Riprova.",
+    "editProfile": "Modifica Profilo",
+    "saveChanges": "Salva Modifiche",
+    "saving": "Salvataggio in corso...",
+    "cancel": "Annulla",
+    "signOut": "Disconnetti",
+    "birthDate": "Data di Nascita",
+    "name": "Nome",
+    "email": "Email",
+    "weightInfo": "Informazioni sul Peso",
+    "startingWeight": "Peso Iniziale",
+    "currentWeight": "Peso Attuale",
+    "targetWeight": "Peso Obiettivo",
+    "dietaryRestrictions": "Restrizioni Alimentari",
+    "allergiesPlaceholder": "Elenca qui le tue allergie alimentari...",
+    "genderOptions": {
+      "male": "Maschio",
+      "female": "Femmina",
+      "other": "Altro",
+      "preferNotToSay": "Preferisco non specificare"
+    },
+    "activityOptions": {
+      "sedentary": "Sedentario (poco o nessun esercizio)",
+      "light": "Leggero (esercizio 1-3 volte/settimana)",
+      "moderate": "Moderato (esercizio 3-5 volte/settimana)",
+      "active": "Attivo (esercizio 6-7 volte/settimana)",
+      "veryActive": "Molto Attivo (esercizio intenso quotidiano)"
+    },
+    "restrictionOptions": {
+      "vegetarian": "Vegetariano",
+      "vegan": "Vegano",
+      "gluten-free": "Senza Glutine",
+      "dairy": "Senza Lattosio",
+      "nuts": "Senza Frutta Secca",
+      "shellfish": "Senza Crostacei"
+    }
   },
   "dashboard": {
-    "welcome": "Bentornato, {{name}}",
-    "summary": "Riepilogo dei tuoi progressi",
-    "stats": {
-      "weight": "Peso attuale",
-      "weightLost": "Peso perso",
+    "title": "Dashboard",
+    "tabs": {
+      "overview": "Panoramica",
+      "progress": "Progressi",
+      "mealPlan": "Piano Pasti",
+      "goals": "Obiettivi"
+    },
+    "overview": {
+      "welcome": "Bentornato, {{name}}!",
+      "welcomeMessage": "Sei nel tuo percorso keto da {{days}} giorni. Continua così!",
       "daysOnKeto": "Giorni in Keto",
-      "streakDays": "Serie attuale"
+      "recipesCooked": "Ricette Preparate",
+      "currentStreak": "Serie Attuale",
+      "todaysMeals": "Pasti di Oggi",
+      "progressSummary": "Riepilogo Progressi",
+      "weightProgress": "Progresso Peso",
+      "ketoneLevel": "Livello Chetoni",
+      "streakProgress": "Progresso Serie",
+      "days": "giorni",
+      "viewDetailedProgress": "Vedi Progressi Dettagliati",
+      "recommendedRecipes": "Ricette Consigliate",
+      "viewAll": "Vedi Tutte"
     },
-    "macros": {
-      "title": "Macronutrienti di oggi",
-      "remaining": "Rimanenti",
-      "consumed": "Consumati"
+    "progress": {
+      "title": "I Tuoi Progressi",
+      "description": "Monitora la perdita di peso e i livelli di chetoni nel tempo.",
+      "weightChartPlaceholder": "Il grafico del peso verrà visualizzato qui",
+      "date": "Data",
+      "weight": "Peso",
+      "ketones": "Chetoni",
+      "change": "Variazione"
     },
-    "recentMeals": "Pasti recenti",
-    "favorites": "I tuoi preferiti",
-    "recommendations": "Consigliati per te",
-    "progress": "Grafico dei progressi",
-    "goals": "I tuoi obiettivi",
-    "addMeal": "Aggiungi pasto",
-    "trackWeight": "Registra peso",
-    "viewAll": "Vedi tutti"
+    "mealPlan": {
+      "title": "Il Tuo Piano Pasti",
+      "description": "Pianifica i tuoi pasti per la settimana per rimanere in linea con i tuoi obiettivi keto.",
+      "previousWeek": "Settimana Precedente",
+      "nextWeek": "Settimana Successiva",
+      "days": {
+        "monday": "Lunedì",
+        "tuesday": "Martedì",
+        "wednesday": "Mercoledì",
+        "thursday": "Giovedì",
+        "friday": "Venerdì",
+        "saturday": "Sabato",
+        "sunday": "Domenica"
+      },
+      "noMealsPlanned": "Nessun pasto pianificato"
+    },
+    "goals": {
+      "title": "I Tuoi Obiettivi",
+      "description": "Imposta e monitora i tuoi obiettivi di salute e fitness.",
+      "currentGoals": "Obiettivi Attuali",
+      "setNewGoals": "Imposta Nuovi Obiettivi",
+      "targetWeight": "Peso Obiettivo",
+      "dailyCarbs": "Carboidrati Giornalieri",
+      "dailyWater": "Acqua Giornaliera",
+      "weeklyWorkouts": "Allenamenti Settimanali",
+      "workouts": "allenamenti",
+      "saveGoals": "Salva Obiettivi"
+    }
   },
   "education": {
     "title": "Centro educativo Keto",
@@ -267,7 +357,7 @@
     "legalLinks": "Legale",
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Termini di Servizio",
-    "cookiePolicy": "Policy sui Cookie",
+    "cookiePolicy": "Policy dei Cookie",
     "copyright": "© {{year}} {{appName}}. Tutti i diritti riservati."
   },
   "common": {
@@ -283,7 +373,7 @@
     "filter": "Filtra",
     "sort": "Ordina",
     "noData": "Nessun dato disponibile",
-    "seeAll": "Vedi tutti",
+    "seeAll": "Vedi Tutto",
     "back": "Indietro"
   }
 }

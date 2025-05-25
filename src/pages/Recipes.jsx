@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
-import { Link } from 'react-router-dom'
+import RecipeCard from '../components/recipes/RecipeCard'
+import mockRecipes from '../mocks/recipeData'
 
 const Recipes = () => {
   const { t } = useTranslation()
@@ -10,100 +11,6 @@ const Recipes = () => {
     difficulty: [],
     netCarbs: null
   })
-  
-  // Mock recipes data (will be replaced with actual data from Supabase)
-  const mockRecipes = [
-    {
-      id: 1,
-      title: 'Keto Avocado Eggs',
-      description: 'A delicious breakfast option with creamy avocados and perfectly cooked eggs.',
-      image: null,
-      prepTime: 15,
-      cookTime: 10,
-      difficulty: 'easy',
-      mealType: 'breakfast',
-      rating: 4.8,
-      net_carbs: 2,
-      calories: 350,
-      fat_grams: 30,
-      protein_grams: 15
-    },
-    {
-      id: 2,
-      title: 'Keto Cauliflower Soup',
-      description: 'Creamy and satisfying soup that\'s perfect for a light lunch or starter.',
-      image: null,
-      prepTime: 15,
-      cookTime: 25,
-      difficulty: 'medium',
-      mealType: 'lunch',
-      rating: 4.6,
-      net_carbs: 5,
-      calories: 280,
-      fat_grams: 22,
-      protein_grams: 10
-    },
-    {
-      id: 3,
-      title: 'Keto Steak with Garlic Butter',
-      description: 'Juicy steak topped with herb-infused garlic butter for a perfect keto dinner.',
-      image: null,
-      prepTime: 10,
-      cookTime: 15,
-      difficulty: 'medium',
-      mealType: 'dinner',
-      rating: 4.9,
-      net_carbs: 1,
-      calories: 450,
-      fat_grams: 35,
-      protein_grams: 30
-    },
-    {
-      id: 4,
-      title: 'Keto Chocolate Fat Bombs',
-      description: 'Sweet treats that are perfect for satisfying cravings while staying in ketosis.',
-      image: null,
-      prepTime: 15,
-      cookTime: 0,
-      difficulty: 'easy',
-      mealType: 'snack',
-      rating: 4.7,
-      net_carbs: 2,
-      calories: 180,
-      fat_grams: 18,
-      protein_grams: 2
-    },
-    {
-      id: 5,
-      title: 'Keto Zucchini Noodles with Pesto',
-      description: 'A light and refreshing alternative to pasta that\'s packed with flavor.',
-      image: null,
-      prepTime: 20,
-      cookTime: 10,
-      difficulty: 'easy',
-      mealType: 'lunch',
-      rating: 4.5,
-      net_carbs: 4,
-      calories: 320,
-      fat_grams: 28,
-      protein_grams: 8
-    },
-    {
-      id: 6,
-      title: 'Keto Bacon and Cheese Omelette',
-      description: 'A protein-packed breakfast that will keep you full until lunch.',
-      image: null,
-      prepTime: 5,
-      cookTime: 10,
-      difficulty: 'easy',
-      mealType: 'breakfast',
-      rating: 4.6,
-      net_carbs: 1,
-      calories: 400,
-      fat_grams: 32,
-      protein_grams: 25
-    }
-  ]
   
   const toggleFilter = (category, value) => {
     setActiveFilters(prev => {
@@ -129,12 +36,12 @@ const Recipes = () => {
   const filteredRecipes = mockRecipes.filter(recipe => {
     // If no filters are active in a category, don't filter by that category
     const mealTypeMatch = activeFilters.mealType.length === 0 || 
-                          activeFilters.mealType.includes(recipe.mealType)
+                          activeFilters.mealType.includes(recipe.meal_type)
     
     const prepTimeMatch = activeFilters.prepTime.length === 0 || 
-                          (activeFilters.prepTime.includes('under15') && recipe.prepTime < 15) ||
-                          (activeFilters.prepTime.includes('15to30') && recipe.prepTime >= 15 && recipe.prepTime <= 30) ||
-                          (activeFilters.prepTime.includes('over30') && recipe.prepTime > 30)
+                          (activeFilters.prepTime.includes('under15') && recipe.prep_time < 15) ||
+                          (activeFilters.prepTime.includes('15to30') && recipe.prep_time >= 15 && recipe.prep_time <= 30) ||
+                          (activeFilters.prepTime.includes('over30') && recipe.prep_time > 30)
     
     const difficultyMatch = activeFilters.difficulty.length === 0 || 
                             activeFilters.difficulty.includes(recipe.difficulty)
@@ -286,30 +193,9 @@ const Recipes = () => {
           ) : (
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               {filteredRecipes.map(recipe => (
-                <Link 
-                  key={recipe.id} 
-                  to={`/recipes/${recipe.id}`}
-                  className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition duration-300"
-                >
-                  <div className="h-48 bg-gray-200"></div>
-                  <div className="p-4">
-                    <div className="flex justify-between items-center mb-2">
-                      <span className="bg-primary-100 text-primary-800 text-xs font-medium px-2.5 py-0.5 rounded">
-                        {t(`recipes.mealTypes.${recipe.mealType}`)}
-                      </span>
-                      <div className="flex items-center">
-                        <span className="text-yellow-400 mr-1">★</span>
-                        <span className="text-sm text-gray-600">{recipe.rating}</span>
-                      </div>
-                    </div>
-                    <h3 className="text-xl font-semibold mb-2">{recipe.title}</h3>
-                    <p className="text-gray-600 text-sm mb-4">{recipe.description}</p>
-                    <div className="flex justify-between text-sm text-gray-500">
-                      <span>{recipe.prepTime + recipe.cookTime} min</span>
-                      <span>{recipe.net_carbs}g {t('recipes.netCarbs')}</span>
-                    </div>
-                  </div>
-                </Link>
+                <div key={recipe.id} className="h-full">
+                  <RecipeCard recipe={recipe} />
+                </div>
               ))}
             </div>
           )}
