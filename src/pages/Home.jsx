@@ -54,13 +54,13 @@ const Home = () => {
                 <div className="space-y-4">
                   <h1 className="text-5xl md:text-7xl font-bold leading-tight">
                     <span className="block bg-gradient-to-r from-white to-green-200 bg-clip-text text-transparent">
-                      {t('home.hero.titleLine1')}
+                      {t('home.hero.heading.transform')}
                     </span>
                     <span className="block text-white">
-                      {t('home.hero.titleLine2')}
+                      {t('home.hero.heading.health')}
                     </span>
                     <span className="block bg-gradient-to-r from-green-300 to-blue-300 bg-clip-text text-transparent">
-                      {t('home.hero.titleLine3')}
+                      {t('home.hero.heading.keto')}
                     </span>
                   </h1>
                 </div>
@@ -73,16 +73,16 @@ const Home = () => {
                 {/* Stats */}
                 <div className="flex flex-wrap gap-8 py-6">
                   <div className="text-center">
-                    <div className="text-3xl font-bold text-white">{t('home.hero.stats.recipes.number')}</div>
-                    <div className="text-green-200 text-sm">{t('home.hero.stats.recipes.label')}</div>
+                    <div className="text-3xl font-bold text-white">500+</div>
+                    <div className="text-green-200 text-sm">{t('home.hero.stats.recipes')}</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-3xl font-bold text-white">{t('home.hero.stats.users.number')}</div>
-                    <div className="text-green-200 text-sm">{t('home.hero.stats.users.label')}</div>
+                    <div className="text-3xl font-bold text-white">10k+</div>
+                    <div className="text-green-200 text-sm">{t('home.hero.stats.users')}</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-3xl font-bold text-white">{t('home.hero.stats.success.number')}</div>
-                    <div className="text-green-200 text-sm">{t('home.hero.stats.success.label')}</div>
+                    <div className="text-3xl font-bold text-white">95%</div>
+                    <div className="text-green-200 text-sm">{t('home.hero.stats.success')}</div>
                   </div>
                 </div>
 
@@ -116,7 +116,7 @@ const Home = () => {
                     <div className="w-8 h-8 rounded-full border-2 border-white bg-white/20 backdrop-blur-sm flex items-center justify-center text-xs font-bold text-white">+</div>
                   </div>
                   <div className="text-green-200 text-sm">
-                    <span className="font-semibold">{t('home.hero.trustIndicator.join')}</span> {t('home.hero.trustIndicator.message')}
+                    <span className="font-semibold">{t('home.hero.trust.join')}</span> {t('home.hero.trust.message')}
                   </div>
                 </div>
               </div>
@@ -138,35 +138,35 @@ const Home = () => {
                             🥑
                           </div>
                           <div>
-                            <h3 className="font-bold text-gray-800">{t('home.hero.recipeCard.title')}</h3>
-                            <p className="text-gray-600 text-sm">{t('home.hero.recipeCard.carbs')}</p>
+                            <h3 className="font-bold text-gray-800">{t('home.hero.preview.recipeTitle')}</h3>
+                            <p className="text-gray-600 text-sm">{t('home.hero.preview.netCarbs')}</p>
                           </div>
                         </div>
                         <div className="h-32 bg-gradient-to-br from-green-100 to-green-200 rounded-xl mb-4 flex items-center justify-center">
                           <span className="text-4xl">🥗</span>
                         </div>
                         <div className="flex justify-between text-sm text-gray-600">
-                          <span>{t('home.hero.recipeCard.time')}</span>
-                          <span>{t('home.hero.recipeCard.rating')}</span>
-                          <span>{t('home.hero.recipeCard.servings')}</span>
+                          <span>⏱️ {t('home.hero.preview.time')}</span>
+                          <span>⭐ 4.9</span>
+                          <span>👥 {t('home.hero.preview.servings')}</span>
                         </div>
                       </div>
 
                       {/* Progress Card */}
                       <div className="bg-white rounded-2xl p-6 shadow-2xl transform -rotate-2 hover:rotate-0 transition-transform duration-300">
                         <div className="flex items-center justify-between mb-4">
-                          <h3 className="font-bold text-gray-800">{t('home.hero.progressCard.title')}</h3>
+                          <h3 className="font-bold text-gray-800">{t('home.hero.progress.title')}</h3>
                           <span className="text-2xl">📈</span>
                         </div>
                         <div className="space-y-3">
                           <div className="flex justify-between">
-                            <span className="text-gray-600">{t('home.hero.progressCard.weightLost')}</span>
-                            <span className="font-bold text-green-600">{t('home.hero.progressCard.weightValue')}</span>
+                            <span className="text-gray-600">{t('home.hero.progress.weightLost')}</span>
+                            <span className="font-bold text-green-600">-8.5 kg</span>
                           </div>
                           <div className="w-full bg-gray-200 rounded-full h-2">
                             <div className="bg-gradient-to-r from-green-400 to-blue-400 h-2 rounded-full w-3/4"></div>
                           </div>
-                          <div className="text-sm text-gray-500">{t('home.hero.progressCard.goal')}</div>
+                          <div className="text-sm text-gray-500">{t('home.hero.progress.goal')}</div>
                         </div>
                       </div>
                     </div>

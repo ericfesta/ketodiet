@@ -16,43 +16,34 @@
   "home": {
     "hero": {
       "badge": "Transform your life today",
-      "titleLine1": "Transform",
-      "titleLine2": "your health",
-      "titleLine3": "with Keto",
-      "subtitle": "Discover delicious recipes, track your progress, and learn the ketogenic lifestyle that will change your life",
+      "heading": {
+        "transform": "Transform",
+        "health": "your health",
+        "keto": "with Keto"
+      },
+      "subtitle": "Discover delicious recipes, track your progress, and learn about the ketogenic lifestyle that will change your life",
       "stats": {
-        "recipes": {
-          "number": "500+",
-          "label": "Keto Recipes"
-        },
-        "users": {
-          "number": "10k+",
-          "label": "Active Users"
-        },
-        "success": {
-          "number": "95%",
-          "label": "Success Rate"
-        }
+        "recipes": "Keto Recipes",
+        "users": "Active Users",
+        "success": "Success Rate"
       },
       "buttons": {
         "exploreRecipes": "🍽️ Explore Recipes",
         "startFree": "🚀 Start Free"
       },
-      "trustIndicator": {
+      "trust": {
         "join": "Join thousands",
         "message": "of people who have already transformed their lives"
       },
-      "recipeCard": {
-        "title": "Avocado Keto Bowl",
-        "carbs": "2g net carbs",
-        "time": "⏱️ 15 min",
-        "rating": "⭐ 4.9",
-        "servings": "👥 2 servings"
+      "preview": {
+        "recipeTitle": "Avocado Keto Bowl",
+        "netCarbs": "2g net carbs",
+        "time": "15 min",
+        "servings": "2 servings"
       },
-      "progressCard": {
-        "title": "Your Progress",
+      "progress": {
+        "title": "Your progress",
         "weightLost": "Weight lost",
-        "weightValue": "-8.5 kg",
         "goal": "Goal: -12 kg"
       }
     },

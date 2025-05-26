@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { Routes, Route, Navigate } from 'react-router-dom'
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { supabase } from './lib/supabaseClient'
 import { useAuthStore } from './stores/authStore'
@@ -22,7 +22,7 @@ import NotFound from './pages/NotFound'
 // Components
 import LoadingScreen from './components/ui/LoadingScreen'
 
-function App() {
+function AppContent() {
   const { t } = useTranslation()
   const [loading, setLoading] = useState(true)
   const { user, setUser } = useAuthStore()
@@ -80,6 +80,14 @@ function App() {
       {/* 404 route */}
       <Route path="*" element={<NotFound />} />
     </Routes>
+  )
+}
+
+function App() {
+  return (
+    <BrowserRouter>
+      <AppContent />
+    </BrowserRouter>
   )
 }
 
